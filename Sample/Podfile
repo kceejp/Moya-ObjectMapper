@@ -16,12 +16,6 @@ def libraries_rx_swift
   pod 'RxAlertController'
 end
 
-def libraries_reactive_swift
-  pod 'Moya-ObjectMapper/ReactiveSwift', :path => "../"
-  pod 'Moya/ReactiveSwift'
-  pod 'ReactiveSwift', :git => 'https://github.com/ReactiveCocoa/ReactiveSwift'
-end
-
 def required_pods
   pod 'ObjectMapper' #, :git => 'https://github.com/Hearst-DD/ObjectMapper'
   pod 'Moya' #, :git => 'https://github.com/Moya/Moya'
